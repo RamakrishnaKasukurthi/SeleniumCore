@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31811" started-at="2019-05-05T15:13:17Z" finished-at="2019-05-05T15:13:49Z">
+  <suite name="Default suite" duration-ms="17567" started-at="2019-05-05T17:46:28Z" finished-at="2019-05-05T17:46:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31811" started-at="2019-05-05T15:13:17Z" finished-at="2019-05-05T15:13:49Z">
-      <class name="module1.FireFoxLaunch">
-        <test-method status="PASS" signature="firefox()[pri:0, instance:module1.FireFoxLaunch@5419f379]" name="firefox" duration-ms="31765" started-at="2019-05-05T15:13:17Z" finished-at="2019-05-05T15:13:48Z">
+    <test name="Default test" duration-ms="17567" started-at="2019-05-05T17:46:28Z" finished-at="2019-05-05T17:46:46Z">
+      <class name="module1.ChromeLaunch">
+        <test-method status="PASS" signature="chrome()[pri:0, instance:module1.ChromeLaunch@5419f379]" name="chrome" duration-ms="17530" started-at="2019-05-05T17:46:28Z" finished-at="2019-05-05T17:46:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firefox -->
-      </class> <!-- module1.FireFoxLaunch -->
+        </test-method> <!-- chrome -->
+      </class> <!-- module1.ChromeLaunch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

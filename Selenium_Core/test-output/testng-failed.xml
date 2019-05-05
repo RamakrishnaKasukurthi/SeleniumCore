@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module1.FireFoxLaunch">
+      <class name="module1.ChromeLaunch">
         <methods>
-          <include name="firefox"/>
+          <include name="chrome"/>
         </methods>
-      </class> <!-- module1.FireFoxLaunch -->
+      </class> <!-- module1.ChromeLaunch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
