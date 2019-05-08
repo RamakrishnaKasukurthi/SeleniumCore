@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21245" started-at="2019-05-07T16:46:07Z" finished-at="2019-05-07T16:46:28Z">
+  <suite name="Default suite" duration-ms="29524" started-at="2019-05-08T15:05:25Z" finished-at="2019-05-08T15:05:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21245" started-at="2019-05-07T16:46:07Z" finished-at="2019-05-07T16:46:28Z">
-      <class name="module1.BrowserCommands">
-        <test-method status="PASS" signature="commands()[pri:0, instance:module1.BrowserCommands@5419f379]" name="commands" duration-ms="21185" started-at="2019-05-07T16:46:07Z" finished-at="2019-05-07T16:46:28Z">
+    <test name="Default test" duration-ms="29524" started-at="2019-05-08T15:05:25Z" finished-at="2019-05-08T15:05:54Z">
+      <class name="module1.BrowserCommandsPractice1">
+        <test-method status="PASS" signature="commands()[pri:0, instance:module1.BrowserCommandsPractice1@5419f379]" name="commands" duration-ms="29471" started-at="2019-05-08T15:05:25Z" finished-at="2019-05-08T15:05:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commands -->
-      </class> <!-- module1.BrowserCommands -->
+      </class> <!-- module1.BrowserCommandsPractice1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
