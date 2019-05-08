@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17567" started-at="2019-05-05T17:46:28Z" finished-at="2019-05-05T17:46:46Z">
+  <suite name="Default suite" duration-ms="21245" started-at="2019-05-07T16:46:07Z" finished-at="2019-05-07T16:46:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17567" started-at="2019-05-05T17:46:28Z" finished-at="2019-05-05T17:46:46Z">
-      <class name="module1.ChromeLaunch">
-        <test-method status="PASS" signature="chrome()[pri:0, instance:module1.ChromeLaunch@5419f379]" name="chrome" duration-ms="17530" started-at="2019-05-05T17:46:28Z" finished-at="2019-05-05T17:46:46Z">
+    <test name="Default test" duration-ms="21245" started-at="2019-05-07T16:46:07Z" finished-at="2019-05-07T16:46:28Z">
+      <class name="module1.BrowserCommands">
+        <test-method status="PASS" signature="commands()[pri:0, instance:module1.BrowserCommands@5419f379]" name="commands" duration-ms="21185" started-at="2019-05-07T16:46:07Z" finished-at="2019-05-07T16:46:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- chrome -->
-      </class> <!-- module1.ChromeLaunch -->
+        </test-method> <!-- commands -->
+      </class> <!-- module1.BrowserCommands -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
