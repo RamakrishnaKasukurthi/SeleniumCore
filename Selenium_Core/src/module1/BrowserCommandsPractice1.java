@@ -20,7 +20,7 @@ public class BrowserCommandsPractice1 {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		String pagetitle = driver.getTitle();
-		int pagetitlelength = driver.getTitle().length();
+int pagetitlelength = driver.getTitle().length();
 
 		System.out.println("Page title is:" + pagetitle);
 		System.out.println("page title length is: " + pagetitlelength);

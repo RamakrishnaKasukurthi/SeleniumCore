@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module1.BrowserCommandsPractice1">
+      <class name="module1.BrowserNavigationCommands">
         <methods>
-          <include name="commands"/>
+          <include name="navigationCommands"/>
         </methods>
-      </class> <!-- module1.BrowserCommandsPractice1 -->
+      </class> <!-- module1.BrowserNavigationCommands -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
