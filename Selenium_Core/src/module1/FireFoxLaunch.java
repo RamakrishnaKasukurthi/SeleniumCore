@@ -9,7 +9,7 @@ public class FireFoxLaunch {
 	@Test
 	public void firefox() {
 		
-		System.setProperty("webdriver.gecko.driver","E:\\JAVA\\Eclipse_Selenium_Driver\\Gecko_Driver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\91800\\Selenium Softwares\\geckodriver-v0.26.0-win32\\geckodriver.exe");
 WebDriver driver=new FirefoxDriver();
 driver.get("https://www.toolsqa.com/selenium-tutorial/");
 	}

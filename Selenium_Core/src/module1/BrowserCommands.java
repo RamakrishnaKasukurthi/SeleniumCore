@@ -9,7 +9,7 @@ public class BrowserCommands {
 	public void commands() {
 
 		System.setProperty("webdriver.chrome.driver",
-				"E:\\JAVA\\Eclipse_Selenium_Driver\\Chrome_Driver\\New\\chromedriver.exe");
+				"C:\\Users\\91800\\Selenium Softwares\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://www.toolsqa.com/selenium-tutorial/");
@@ -25,16 +25,21 @@ public class BrowserCommands {
 
 		System.out.println(url);
 		
-		String pagesource=driver.getPageSource();
+	String pagesource=driver.getPageSource();
 		//This method returns the Source Code of the page
 		
-		System.out.println(pagesource);
+		//System.out.println(pagesource);
 		
 		driver.close();
 		//This method Close only the current window the WebDriver is currently controlling
 		
 		driver.quit();
 		//This method Closes all windows opened by the WebDriver
+		
+		boolean x= title.equals(url);
+		System.out.println(x);
+		
+		
 
 	}
 

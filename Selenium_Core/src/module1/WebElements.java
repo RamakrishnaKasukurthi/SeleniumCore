@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -20,7 +21,7 @@ public class WebElements {
 		 */
 
 		System.setProperty("webdriver.chrome.driver",
-				"E:\\JAVA\\Eclipse_Selenium_Driver\\Chrome_Driver\\chromedriver.exe");
+				"C:\\\\Users\\\\91800\\\\Selenium Softwares\\\\chromedriver_win32\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
@@ -32,6 +33,10 @@ public class WebElements {
 		 * CSS Selector 8. XPath
 		 */
 
+		WebElement ParentElement=driver.findElement(By.id("reg-submit-button"));
+		WebElement chaildElement=ParentElement.findElement(By.className("pure-button puree-button-primary puree-spinner-button"));
+		chaildElement.submit();
+		
 		// 1. ID
 		driver.findElement(By.id("usernamereg-yid")).sendKeys("Ramakrishnak1992");
 

@@ -10,7 +10,7 @@ public class ChromeLaunch {
 	public void chrome() {
 
 		System.setProperty("webdriver.chrome.driver",
-				"E:\\JAVA\\Eclipse_Selenium_Driver\\Chrome_Driver\\New\\chromedriver.exe");
+				"C:\\Users\\91800\\Selenium Softwares\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://www.toolsqa.com/selenium-tutorial/");

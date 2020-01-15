@@ -11,7 +11,7 @@ public class BrowserCommandsPractice1 {
 	public void commands() {
 
 		System.setProperty("webdriver.gecko.driver",
-				"E:\\\\JAVA\\\\Eclipse_Selenium_Driver\\\\Gecko_Driver\\\\geckodriver.exe");
+				"C:\\Users\\91800\\Selenium Softwares\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new FirefoxDriver();
 
 		String url = "http://shop.demoqa.com/";
