@@ -12,5 +12,8 @@
 			<attribute name="javadoc_location" value="https://seleniumhq.github.io/selenium/docs/api/java/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/91800/Selenium Softwares/Latest Files/HTML/htmlunit-driver-2.41.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91800/Selenium Softwares/Latest Files/HTML/htmlunit-driver-2.41.0-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91800/Selenium Softwares/Sikuli/sikulixapi-2.0.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

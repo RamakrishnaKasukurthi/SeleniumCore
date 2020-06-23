@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module1.Relative_XPath_method">
+      <class name="Concepts.BrokenLinksTest">
         <methods>
-          <include name="xpath_methods"/>
+          <include name="browselaunch"/>
         </methods>
-      </class> <!-- module1.Relative_XPath_method -->
+      </class> <!-- Concepts.BrokenLinksTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
